@@ -1,0 +1,113 @@
+import { Product } from '../types';
+
+export const products: Product[] = [
+  {
+    id: '1',
+    name: 'Ashwagandha Capsules',
+    image: 'https://images.pexels.com/photos/5946024/pexels-photo-5946024.jpeg?auto=compress&cs=tinysrgb&w=400',
+    description: 'Premium quality Ashwagandha root extract capsules for stress relief and vitality enhancement.',
+    contents: ['Ashwagandha Root Extract (500mg)', 'Gelatin Capsule', 'Microcrystalline Cellulose'],
+    dosage: 'Take 1-2 capsules daily with warm water after meals',
+    price: 899,
+    originalPrice: 1299,
+    rating: 4.5,
+    reviews: 324,
+    category: 'Herbs & Supplements',
+    inStock: true
+  },
+  {
+    id: '2',
+    name: 'Triphala Churna',
+    image: 'https://images.pexels.com/photos/4022090/pexels-photo-4022090.jpeg?auto=compress&cs=tinysrgb&w=400',
+    description: 'Traditional Ayurvedic formulation for digestive health and detoxification.',
+    contents: ['Amalaki (Emblica officinalis)', 'Bibhitaki (Terminalia bellirica)', 'Haritaki (Terminalia chebula)'],
+    dosage: 'Mix 1-2 teaspoons with warm water before bedtime',
+    price: 549,
+    originalPrice: 749,
+    rating: 4.3,
+    reviews: 156,
+    category: 'Digestive Health',
+    inStock: true
+  },
+  {
+    id: '3',
+    name: 'Brahmi Oil',
+    image: 'https://images.pexels.com/photos/4022092/pexels-photo-4022092.jpeg?auto=compress&cs=tinysrgb&w=400',
+    description: 'Pure Brahmi oil for hair nourishment and mental clarity enhancement.',
+    contents: ['Brahmi Extract (Bacopa monnieri)', 'Coconut Oil', 'Sesame Oil', 'Vitamin E'],
+    dosage: 'Apply to scalp and hair 2-3 times per week. Leave for 1 hour before washing.',
+    price: 699,
+    rating: 4.7,
+    reviews: 89,
+    category: 'Hair Care',
+    inStock: true
+  },
+  {
+    id: '4',
+    name: 'Turmeric Curcumin Tablets',
+    image: 'https://images.pexels.com/photos/4022093/pexels-photo-4022093.jpeg?auto=compress&cs=tinysrgb&w=400',
+    description: 'High potency turmeric curcumin tablets with black pepper extract for maximum absorption.',
+    contents: ['Turmeric Root Extract (500mg)', 'Curcumin (95%)', 'Black Pepper Extract', 'Cellulose'],
+    dosage: 'Take 1 tablet twice daily with meals',
+    price: 799,
+    originalPrice: 999,
+    rating: 4.6,
+    reviews: 278,
+    category: 'Immunity',
+    inStock: true
+  },
+  {
+    id: '5',
+    name: 'Chyawanprash',
+    image: 'https://images.pexels.com/photos/6823578/pexels-photo-6823578.jpeg?auto=compress&cs=tinysrgb&w=400',
+    description: 'Traditional Ayurvedic immunity booster with 40+ herbs and natural ingredients.',
+    contents: ['Amla', 'Ashwagandha', 'Giloy', 'Tulsi', 'Honey', 'Ghee', '35+ other herbs'],
+    dosage: 'Take 1-2 teaspoons daily in the morning with warm milk',
+    price: 1299,
+    rating: 4.8,
+    reviews: 445,
+    category: 'Immunity',
+    inStock: true
+  },
+  {
+    id: '6',
+    name: 'Arjuna Bark Powder',
+    image: 'https://images.pexels.com/photos/4022151/pexels-photo-4022151.jpeg?auto=compress&cs=tinysrgb&w=400',
+    description: 'Pure Arjuna bark powder for cardiovascular health and heart strength.',
+    contents: ['Terminalia arjuna Bark Powder (100%)', 'No artificial additives'],
+    dosage: 'Mix 1 teaspoon with warm water twice daily before meals',
+    price: 649,
+    originalPrice: 849,
+    rating: 4.4,
+    reviews: 92,
+    category: 'Heart Health',
+    inStock: true
+  },
+  {
+    id: '7',
+    name: 'Neem Capsules',
+    image: 'https://images.pexels.com/photos/5946027/pexels-photo-5946027.jpeg?auto=compress&cs=tinysrgb&w=400',
+    description: 'Natural blood purifier and skin health supporter with pure neem extract.',
+    contents: ['Neem Leaf Extract (500mg)', 'Vegetarian Capsule', 'Rice Flour'],
+    dosage: 'Take 1 capsule twice daily with water after meals',
+    price: 599,
+    rating: 4.2,
+    reviews: 167,
+    category: 'Skin Care',
+    inStock: false
+  },
+  {
+    id: '8',
+    name: 'Giloy Juice',
+    image: 'https://images.pexels.com/photos/4022098/pexels-photo-4022098.jpeg?auto=compress&cs=tinysrgb&w=400',
+    description: 'Fresh Giloy juice for immunity boosting and fever management.',
+    contents: ['Pure Giloy Extract (Tinospora cordifolia)', 'Natural Preservatives', 'Water'],
+    dosage: 'Take 20-30ml twice daily on empty stomach',
+    price: 449,
+    originalPrice: 599,
+    rating: 4.5,
+    reviews: 234,
+    category: 'Immunity',
+    inStock: true
+  }
+];
